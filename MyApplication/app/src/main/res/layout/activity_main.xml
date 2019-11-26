@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+
+    tools:context=".MainCompras">
+
+
+    <Button
+        android:id="@+id/btnCompras"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="349dp"
+        android:layout_height="155dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/botao"
+
+        android:importantForAutofill="no"
+        android:text="@string/btnCompras"
+        android:textColor="#FFFF"
+        android:textColorLink="#3F51B5"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnVendas"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="349dp"
+        android:layout_height="155dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/botao"
+        android:importantForAutofill="no"
+        android:text="@string/btnVendas"
+        android:textColor="#FFFF"
+        android:textColorLink="#3F51B5"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout >
